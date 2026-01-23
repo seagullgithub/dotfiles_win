@@ -1,0 +1,20 @@
+[user]
+	email = <>
+	name = seagull
+[credential "helperselector"]
+	selected = manager
+[core]
+	autocrlf = false
+	editor = 'C:/Program Files/Vim/vim91/vim.exe'
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
+[alias]
+	lg = log --pretty=format:'%C(yellow)%h%Creset %C(bold)%s%Creset %C(auto)%d%Creset %n        %ad %an' --date=short
+[init]
+	defaultBranch = main
+; --- custom config
+[credential "http://192.168.0.59:3000"]
+	provider = generic
