@@ -1,2 +1,5 @@
 *.sw*
 /tags
+/vifm/scripts/README
+/vifm/vifm-help.txt
+/vifm/vifminfo.json
